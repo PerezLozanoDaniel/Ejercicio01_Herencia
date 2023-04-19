@@ -1,6 +1,6 @@
-package Componentes;
+package Interfaces;
 
-public interface IMemorizable {
+public interface IGuardable {
         int getCalor();
         int getAlmacenamiento();
 }

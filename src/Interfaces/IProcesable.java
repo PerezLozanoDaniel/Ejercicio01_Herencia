@@ -1,4 +1,4 @@
-package Componentes;
+package Interfaces;
 
 public interface IProcesable {
         int getCalor();
