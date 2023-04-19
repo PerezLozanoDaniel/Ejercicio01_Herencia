@@ -1,4 +1,4 @@
-package Procesadores;
+package AbstractClasses;
 
 import Interfaces.IProcesable;
 
