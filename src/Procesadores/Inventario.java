@@ -17,9 +17,9 @@ public class Inventario {
     public String toString(){
         String cadena;
         cadena="LISTA DE PROCESADORES:\n\n";
-        for (abstractProcesador cadaProcesador: procesadorArrayList ) {
-            cadena += (cadaProcesador.getDescripcion() + " // Número de Serie " + cadaProcesador.getNumSerie() + " // Precio " + cadaProcesador.getPrecio()
-                    + " // Temperatura " + cadaProcesador.getCalor() + " // Número de Nucleos " + cadaProcesador.getCores() + "\n");
+        for (abstractProcesador cada: procesadorArrayList ) {
+            cadena += (cada.getDescripcion() + " // Número de Serie " + cada.getNumSerie() + " // Precio " + cada.getPrecio()
+                    + " // Temperatura " + cada.getCalor() + " // Número de Nucleos " + cada.getCores() + "\n");
         }
         return cadena;
     }

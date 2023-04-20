@@ -9,6 +9,13 @@ abstract public class abstractMemorias implements IMemorizable {
     private int calor;
     private int almacenamiento;
 
+    public abstractMemorias(String descripcion, String numSerie, int precio, int calor, int almacenamiento) {
+        this.descripcion = descripcion;
+        this.numSerie = numSerie;
+        this.precio = precio;
+        this.calor = calor;
+        this.almacenamiento = almacenamiento;
+    }
     public String getDescripcion(){
         return descripcion;
     }
@@ -24,6 +31,4 @@ abstract public class abstractMemorias implements IMemorizable {
     public int getAlmacenamiento() {
         return almacenamiento;
     }
-
-
 }
