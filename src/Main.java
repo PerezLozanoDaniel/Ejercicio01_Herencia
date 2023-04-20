@@ -1,5 +1,4 @@
-//import Discos.*;
-//import Memorias.*;
+import Discos.*;
 import Procesadores.*;
 import Memorias.*;
 
@@ -15,5 +14,9 @@ public class Main {
         Memorias.Inventario inventarioMemorias = new Memorias.Inventario();
         new AltaMemorias(inventarioMemorias);
         System.out.println(inventarioMemorias);
+
+        Discos.Inventario inventarioDiscos = new Discos.Inventario();
+        new AltaDiscos(inventarioDiscos);
+        System.out.println(inventarioDiscos);
     }
 }
