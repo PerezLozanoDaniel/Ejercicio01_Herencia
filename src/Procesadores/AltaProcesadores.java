@@ -8,10 +8,7 @@ public class AltaProcesadores {
     datosProcesador ryzen_AMD_797_X2 = new datosProcesador("Procesador Ryzen AMD","797-X2",178,30,29);
     datosProcesador ryzen_AMD_797_X3 = new datosProcesador("Procesador Ryzen AMD","797-X3",78,60,34);
 
-    Inventario inventarioProcesadores;
-
     public AltaProcesadores(Inventario inventarioProcesadores) {
-        this.inventarioProcesadores = inventarioProcesadores;
 
         inventarioProcesadores.addProcesador(intel_i7_789_XCS);
         inventarioProcesadores.addProcesador(intel_i7_789_XCD);

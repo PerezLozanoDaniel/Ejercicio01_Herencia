@@ -5,9 +5,7 @@ public class AltaMemorias {
     datosMemorias Memoria_SDRAM_879FH_L = new datosMemorias("Banco de Memoria SDRAM","879FH-L",125,15,1000);
     datosMemorias Memoria_SDRAM_879FH_T = new datosMemorias("Banco de Memoria SDRAM","879FH-T",150,24,2000);
 
-    Inventario inventarioMemorias;
     public AltaMemorias(Inventario inventarioProcesadores) {
-        this.inventarioMemorias = inventarioMemorias;
 
         inventarioProcesadores.addMemoria(Memoria_SDRAM_879FH);
         inventarioProcesadores.addMemoria(Memoria_SDRAM_879FH_L);
