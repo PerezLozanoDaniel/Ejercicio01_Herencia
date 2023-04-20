@@ -2,7 +2,7 @@ package AbstractClasses;
 
 import Interfaces.IGuardable;
 
-abstract public class abstracDiscos implements IGuardable {
+abstract public class abstractDiscos implements IGuardable {
     private String descripcion;
     private String numSerie;
     private int precio;

@@ -2,7 +2,7 @@ package AbstractClasses;
 
 import Interfaces.IMemorizable;
 
-abstract public class abstracMemorias implements IMemorizable {
+abstract public class abstractMemorias implements IMemorizable {
     private String descripcion;
     private String numSerie;
     private int precio;
