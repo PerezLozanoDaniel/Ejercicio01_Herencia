@@ -8,7 +8,7 @@ public class AltaProcesadores {
     ryzen_AMD ryzen_AMD_797_X2 = new ryzen_AMD("Procesador Ryzen AMD","797-X2",178,30,29);
     ryzen_AMD ryzen_AMD_797_X3 = new ryzen_AMD("Procesador Ryzen AMD","797-X3",78,60,34);
 
-    public Inventario inventarioProcesadores = new Inventario();
+    Inventario inventarioProcesadores;
 
     public AltaProcesadores(Inventario inventarioProcesadores) {
         this.inventarioProcesadores = inventarioProcesadores;
